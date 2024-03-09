@@ -1,0 +1,382 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "poppins",sams-serif;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.logotext{
+    display: flex;
+    justify-content: baseline;
+
+}
+.logotext p{
+    padding-top:3px;
+    padding-left:2px;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.log{
+    padding: 12px 25px;
+        font-size: 16px;
+        border-radius: 20px;
+        border-style: none;
+        background-color: rgb(152, 0, 198);
+        color: white;
+        font-weight: 400;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    width:100%;
+    height:100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #FDF8EE;
+    ;
+}
+.logo{
+    width:30px;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color:rgb(33, 32, 32);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+nav ul li button a{
+    color:rgb(255, 254, 254);
+}
+/*=========================home================================*/
+
+   
+.container-home{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding-left: 150px;
+    padding-right: 50px ;
+    padding-bottom: 80px;
+    background-image: url(pictures/Group\ 327.png);
+    background-size:contain;
+    background-color: #FDF8EE;
+
+    
+
+}
+.col-1-home{
+    flex-basis: 35%;
+    position: relative;
+}
+.col-1-home p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 150;
+}
+.col-1-home h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.col-1-home span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: orange;
+}
+.search{
+    padding-top: 30px;
+}
+.col-2-home{
+    flex-basis: 65%;
+    position: relative;
+    padding-left: 60px;
+}
+.container-home img{
+    width:600px;
+}
+      .search-input {
+        padding: 10px 40px;
+        font-size: 16px;
+        border-radius: 20px;
+        border-style: none;
+        background-color: rgb(255, 255, 255);
+      }
+      .search-button {
+        padding: 12px 25px;
+        font-size: 16px;
+        border-radius: 20px;
+        border-style: none;
+        background-color: rgb(152, 0, 198);
+        color: white;
+        font-weight: 400;
+      }
+/*===============================certification===============================*/
+.learn{
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    background-color: #FDF8EE;
+
+    padding-bottom: 60px;
+}
+.learn img{
+    width:800px
+}
+/*===============================about us=================================*/
+.container-about{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 50px ;
+    padding-bottom: 80px;
+
+}
+.col-1-about{
+    flex-basis: 60%;
+    position: relative;
+}
+.col-1-about p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 150;
+    text-align: justify;
+    
+}
+.col-1-about h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.col-2-about{
+    flex-basis: 40%;
+    position: relative;
+    padding-left: 60px;
+}
+.col-2-about img{
+    width:300px;
+}
+/*===============================Trace=================================*/
+.heading{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+
+}
+.container-track p{
+    padding-bottom: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 150;
+}
+.container-track h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.container-track{
+    width:100%;
+    height: vh;
+}
+.course img{
+    width:300px;
+}
+.course{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 290px;
+    padding-right: 290px;
+}
+/*===============================card=================================*/
+.premiumCard{
+    padding-top: 50px;
+    padding-bottom:50px ;
+}
+.container-card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 50px ;
+    padding-bottom: 80px;
+    background-image: url(pictures/rectangle2.jpg);
+    background-size:contain;
+}
+.col-1-card{
+    position: relative;
+    flex-basis: 50%;
+}
+.col-1-card img{
+    width: 350px;
+}
+.col-2-text{
+    position: relative;
+    flex-basis: 50%;
+    padding-left: 60px;
+}
+.cardE{
+    padding-top: 40px;
+}
+.cardE img{
+
+    width: 450px;
+    padding-top: 7px;
+
+}
+.col-2-text h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.col-2-text span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: orange;
+}
+/*-------------------------facuality-------------------------------------------*/
+
+.heading-faculty{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+
+}
+.container-faculty p{
+    padding-bottom: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 150;
+}
+.container-faculty h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.container-faculty{
+    width:100%;
+    height: vh;
+    padding-bottom: 30px;
+}
+.names img{
+    width:300px;
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 290px;
+    padding-right: 290px;
+}
+
+/*----------------------------Newsletter------------------------------*/
+.container-newsletter{
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    padding-bottom: 100px;
+}
+.container-newsletter img{
+    width:55%;
+}
+/*---------------------------------endCard-------------------------------*/
+.container-end{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #FDF8EE;
+}
+.container-end .col-1 img{
+    width: 100px;
+}
+.container-end .col-1{
+    position: relative;
+    flex-basis: 20%;
+    text-align:justify
+}
+.container-end .col-2{
+    position: relative;
+    flex-basis: 20%;
+}
+.container-end .col-3{
+    position: relative;
+    flex-basis: 20%;
+}
+.container-end .col-4{
+    position: relative;
+    flex-basis: 20%;
+}
+.container-end .col-5{
+    position: relative;
+    flex-basis: 20%;
+}
+.end-text{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.end-text p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 150;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.end-text h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+/*------------------------------comments-----------------------*/
+.student h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.student p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 150;
+    text-align: center;
+}
+.imagee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.student img{
+    width:60%;
+   
+    
+}
+.student{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+}
